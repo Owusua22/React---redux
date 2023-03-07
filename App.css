@@ -1,0 +1,81 @@
+.App{
+    margin-left: 30%;
+    background-color: #a3dcc3;
+    width: 40%;
+    
+    border-radius: 30px;
+height: 160vh;
+}
+.addUser{
+    display: flex;
+    height: 30px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.addUser input {
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    
+    
+}
+.add{
+    margin-top: 40px;
+    height: 55px;
+    cursor: pointer;
+    background-color: rgb(221, 160, 90);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 40px;
+    width: 150px;
+}
+.add:hover{
+    background-color: gray;
+}
+
+.addUser input:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.displayUser{
+    margin-left: 160px;
+    margin-bottom: 50px;
+    
+}
+.user{
+    background-color: rgb(240 151 119);
+    width: 410px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;  
+margin-bottom: 40px;
+margin-top: 20px;
+}
+.user:hover{
+    background-color: rgb(209, 209, 135);
+}
+h1,h3{
+    margin-left: 30px;
+}
+.user input {
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+   
+    
+}
+.click{
+    height: 40px;
+    font-weight: 900;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
